@@ -7,7 +7,7 @@
 .container {
 	width: 100%;
 	min-width: 1280px;
-	color: #4E3A4F;
+	color: #534141;
 }
 
 .header {
@@ -161,6 +161,58 @@
 .inner-btn:hover {
 	background-color: red;
 }
+
+.four-part {
+	width: 100%;
+	font-size: 13px;
+	padding-bottom: 25px;
+}
+
+.every-part {
+	display: inline-block;
+	width: 24.8%;
+	text-align: center;
+	transition: color 0.4s ease-in-out;
+}
+
+.every-part:hover {
+	color: red;
+}
+
+.icon {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.text {
+	width: 100%;
+	padding: 10px;
+}
+
+.pre-three {
+	border-right: 2px solid #534141;
+}
+
+.text span {
+	display: inline-block;
+	width: 150px;
+}
+
+
+
+.about-world {
+	width: 100%;
+	background-color: #EDEAEA;
+	font-size: 50px;
+	text-align: center;
+	padding: 100px;
+}
+
+.page-icon {
+	margin-bottom: 60px;
+}
+
 
 
 
