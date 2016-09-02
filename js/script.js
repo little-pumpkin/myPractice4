@@ -25,4 +25,26 @@ $(document).ready(function(){
    }
  });
 
+
+ $('.two-btn').click(function(){
+  $('.inner-div-two').css('display', 'inline');
+  $('.inner-div-one, .inner-div-three').css('display', 'none');
+  $('.two-btn').css('background', '#B3B3B3');
+  $('.one-btn, .three-btn').css('background', 'white');
+ });
+
+ $('.three-btn').click(function(){
+  $('.inner-div-three').css('display', 'inline');
+  $('.inner-div-one, .inner-div-two').css('display', 'none');
+  $('.three-btn').css('background', '#B3B3B3');
+  $('.one-btn, .two-btn').css('background', 'white');
+ });
+
+ $('.one-btn').click(function(){
+  $('.inner-div-one').css('display', 'inline');
+  $('.inner-div-two, .inner-div-three').css('display', 'none');
+  $('.one-btn').css('background', '#B3B3B3');
+  $('.two-btn, .three-btn').css('background', 'white');
+ });
+
 });
