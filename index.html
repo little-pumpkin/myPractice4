@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>新世界</title>
+  <title>New World</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -80,6 +80,7 @@
       <div class="what">关于新世界，你不知道的还有什么？</div>
 
       <div class="find">
+        <div class="red-bg"></div>
         <div class="find-inner">
           <div class="find-title">
             <span class="find-info">查找新世界城市活动信息</span>
@@ -87,11 +88,49 @@
           </div>
           <div class="small-title">每个城市都有不同的活动信息，请自助查询您需要了解的城市</div>
           <div class="search">
-
+            <div class="select-outer"> 
+              <div class="select-box"><input id="myselect" type="text" placeholder="国家" readonly="readonly">
+                <ul class="select-ul">
+                 <li class="select-li">中国</li>
+                 <li class="select-li">美国</li>
+                 <li class="select-li">日本</li>
+                </ul>
+               </div>
+            </div>
+            <div class="select-outer"> 
+              <div class="select-box"><input id="myselect" type="text" placeholder="省份" readonly="readonly">
+                <ul class="select-ul">
+                 <li class="select-li">北京</li>
+                 <li class="select-li">湖北</li>
+                 <li class="select-li">湖南</li>
+               </div>
+            </div>
+            <div class="select-outer"> 
+              <div class="select-box"><input id="myselect" type="text" placeholder="城市" readonly="readonly">
+                <ul class="select-ul">
+                 <li class="select-li">北京</li>
+                 <li class="select-li">武汉</li>
+                 <li class="select-li">宜昌</li>
+                 <li class="select-li">长沙</li>
+               </div>
+            </div>
+            <div class="search-btn">搜&nbsp;&nbsp;&nbsp;&nbsp;索</div>
           </div>
         </div>
       </div>
     </div>
+    
   </div>
+
+  <!-- js -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+

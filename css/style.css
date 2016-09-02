@@ -220,6 +220,25 @@
 	font-size: 22px;
 	color: white;
 	padding-top: 80px;
+	position: relative;
+}
+
+.find-inner {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.red-bg {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top: 0;
+	left: 0;
+	background-color: red;
+	opacity: 0.1;
 }
 
 .find-title {
@@ -245,15 +264,83 @@
 }
 
 .small-title {
-	margin-top: 30px; 
+	padding-top: 30px; 
 	font-size: 13px;
+	padding-bottom: 30px;
 }
 
-.search select:nth-child(1) {
-	border: 2px solid red;
-	appearance: none;
+.search {
+	width: 100%;
+	color: #B3B3B3;
+	font-size: 14px;
 }
 
+.select-outer {
+	display: inline-block;
+	margin: 10px;
+}
+
+.select-box {
+	width: 230px; 
+	position: relative;
+}
+
+.select-ul {
+	list-style: none;
+}
+
+.select-box input {
+	width: 100%; 
+	height: 35px; 
+	overflow: hidden;
+	font-size: 14px;
+	padding-left: 10px;
+	cursor: pointer;
+	border: none;
+	background: url('../img/select.png') no-repeat 200px center white;
+	background-size: 18px 18px;
+}
+
+.select-box ul {
+	width: 230px; 
+	position: absolute; 
+	left: 0; 
+	top: 35px; 
+	background: #EDEAEA; 
+	overflow: hidden;
+	display: none; 
+/*	border: 2px solid #BE4F48;
+	border-top: 0;*/
+}
+
+.select-box ul li {
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	width: 100%;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.hover {
+	color: white;
+	background: url('../img/right.png') no-repeat 10px center #BE4F48; 
+}
+
+.search-btn {
+	display: inline-block;
+	width: 230px;
+	height: 35px;
+	line-height: 35px;
+	margin-left: 10px;
+	background-color: #BE4F48;
+	color: white;
+}
+
+.search-btn:hover {
+	background-color: red;
+}
 
 
 
