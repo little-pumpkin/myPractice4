@@ -624,6 +624,7 @@
 
 .become {
 	width: 100%;
+	height: 440px
 }
 
 .become-top {
@@ -662,11 +663,13 @@
 .b-l-r {
 	width: 100%;
 	padding: 0 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .b-left {
-	width: 35%;
-	display: inline-block;
+	width: 400px;
 }
 
 .b-l-t {
@@ -677,16 +680,15 @@
 .b-l-p {
 	font-size: 12px;
 	color: #AEAEAE;
+	margin-top: 20px;
+	line-height: 2em;
 }
 
 .b-l-more {
 	font-size: 12px;
 	color: #AEAEAE;
 	text-align: right;
-}
-
-.b-l-more:hover {
-	color: red;
+	margin-bottom: 30px;
 }
 
 .b-l-more a {
@@ -694,17 +696,53 @@
 	color: #AEAEAE;
 }
 
-
-
-
-
-
-
-
-
-.holder {
-	height: 400px;
+.b-right {
+	width: 620px;
 }
+
+.form-one input, .form-two input {
+	width: 285px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: #DBDBDB;
+	border: 1px solid #DBDBDB;
+	margin: 10px;
+	outline: 0;
+}
+
+.b-right input:focus {
+	background-color: white;
+}
+
+.form-three textarea {
+	margin: 10px;
+	width: 595px;
+	padding: 10px;
+	font-size: 14px;
+	background-color: #DBDBDB;
+	border: 1px solid #DBDBDB;
+	outline: 0;
+	height: 120px;
+}
+.form-three textarea:focus {
+	background-color: white;
+}
+
+.form-four {
+	width: 595px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px;
+	text-align: center;
+	background-color: #DBDBDB;
+	color: black;
+}
+
+.form-four:hover {
+	background-color: #D4C1D3;
+}
+
 
 
 
