@@ -169,6 +169,16 @@
 	padding-bottom: 25px;
 }
 
+.icon img {
+	transition-duration: 0.4s; 
+	transform: rotateZ(-360deg); 
+}
+
+.icon img:hover {
+	transition-duration: 0.4s; 
+	transform: rotateZ(360deg); 
+}
+
 .every-part {
 	display: inline-block;
 	width: 24.8%;
@@ -838,17 +848,3 @@
 	float: right;
 	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
