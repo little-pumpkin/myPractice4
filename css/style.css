@@ -762,10 +762,12 @@
 	text-align: center;
 	background-color: #DBDBDB;
 	color: black;
+	transition: background-color 0.4s ease-in-out;
 }
 
 .form-four:hover {
-	background-color: #D4C1D3;
+	background-color: #75757F;
+	color: white;
 }
 
 .footer {
