@@ -47,4 +47,13 @@ $(document).ready(function(){
   $('.two-btn, .three-btn').css('background', 'white');
  });
 
+   $('.totop').click(function(evt) {
+
+    var top = $('.' + evt.target.dataset.to)[0].offsetTop;
+
+    $('html,body').animate({
+      scrollTop : top + 'px'
+    }, 500);
+  });
+
 });

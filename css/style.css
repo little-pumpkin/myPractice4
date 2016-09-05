@@ -624,7 +624,7 @@
 
 .become {
 	width: 100%;
-	height: 440px
+	height: 540px;
 }
 
 .become-top {
@@ -742,6 +742,106 @@
 .form-four:hover {
 	background-color: #D4C1D3;
 }
+
+.footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+	background-color: #33363F;
+	color: white;
+	font-size: 14px;
+	min-width: 1280px;
+
+}
+
+.contact {
+	padding: 100px 0;
+	width: 600px;
+	margin: auto;
+	height: 300px;
+}
+
+.contact-me {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.email-input {
+	width: 500px;
+	height: 40px;
+	float: left;
+	margin-top: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+	outline: 0;
+}
+
+.sub-btn {
+	width: 100px;
+	height: 40px;
+	background-color: #75757F;
+	color: white;
+	font-size: 15px;
+	outline: 0;
+	border: 0;
+	float: left;
+	margin-top: 40px;
+}
+
+.sub-btn:hover {
+	background-color: #626262;
+}
+
+.icon-f {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon-f img {
+	position: absolute;
+	width: 25px;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: width 0.4s ease-in-out;
+}
+
+.icon-f img:hover {
+	width: 30px;
+}
+
+.some-icon {
+	padding-bottom: 50px;
+}
+
+.copyright {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #30303A;
+	padding: 0 12%;
+	color: white;
+}
+
+.cr {
+	float: left;
+}
+
+.totop {
+	float: right;
+	cursor: pointer;
+}
+
+
+
+
 
 
 
