@@ -170,12 +170,12 @@
 }
 
 .icon img {
-	transition-duration: 0.4s; 
+	transition-duration: 0.6s; 
 	transform: rotateZ(-360deg); 
 }
 
 .icon img:hover {
-	transition-duration: 0.4s; 
+	transition-duration: 0.6s; 
 	transform: rotateZ(360deg); 
 }
 
@@ -316,7 +316,8 @@
 	position: absolute; 
 	left: 0; 
 	top: 35px; 
-	background: #EDEAEA; 
+	/*background: #EDEAEA; */
+	background-color: white;
 	overflow: hidden;
 	display: none; 
 }
@@ -565,6 +566,20 @@
 	height: 520px;
 	background: url('../img/pic4.jpg') no-repeat;
 	background-size: cover;
+	position: relative;
+}
+
+.tri-two {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid white;
+	border-bottom: 25px solid transparent;
+	top: 50%;
+	left: 5px;
+	transform: translate(-50%,-50%);
+
 }
 
 .l-btn {
